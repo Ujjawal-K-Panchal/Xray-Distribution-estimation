@@ -11,5 +11,14 @@ Unauthorized copying of this file, via any medium is strictly prohibited.
 Proprietary and confidential.
 """
 #TODO.
+from PIL import Image
+
+covid_datasets = [
+	"datasets/covid_19 dataset/covid19/",
+	"datasets/covid_19 dataset/normal/",
+	"datasets/covid-chestxray-dataset/images/"
+]
+
+
 if __name___ == "__main__":
 	print("TODO")
