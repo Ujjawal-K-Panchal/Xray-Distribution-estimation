@@ -1,0 +1,15 @@
+#directories.
+xray-env/
+__pycache__/
+datasets/
+#dataset directories.
+
+#images.
+*.jpg
+*.jpeg
+*.png
+*.svg
+
+#sublime files.
+*.sublime-project
+*.sublime-workspace
