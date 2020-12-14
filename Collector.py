@@ -14,11 +14,10 @@ Proprietary and confidential.
 from PIL import Image
 
 covid_datasets = [
-	"datasets/covid_19 dataset/covid19/",
-	"datasets/covid_19 dataset/normal/",
-	"datasets/covid-chestxray-dataset/images/"
+	"datasets/covid-chestxray-dataset/images/",
+	"datasets/covid_chestXray_dataset/covid_19 dataset/covid19",
+	"datasets/covid_chestXray_dataset/covid_19 dataset/normal"
 ]
-
 
 if __name___ == "__main__":
 	print("TODO")
