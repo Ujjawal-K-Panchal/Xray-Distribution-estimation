@@ -25,6 +25,7 @@ dataroot = "datasets"
 merge_name = "combined-dsets"
 image_extensions = {"jpg", "jpeg", "png", "svg", "dicom"}
 outpath = "combined"
+
 covid_datasets = [
 	"covid-chestxray-dataset/images/",
 	"covid_chestXray_dataset/covid_19 dataset/covid19/",
@@ -79,6 +80,3 @@ if __name__ == "__main__":
 	content = []
 	#1. extract all images in dataset.
 	mapResult = pool.map_async(ProcessImages, all_datasets).get()
-	
-	
-
