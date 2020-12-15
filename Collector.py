@@ -80,3 +80,4 @@ if __name__ == "__main__":
 	content = []
 	#1. extract all images in dataset.
 	mapResult = pool.map_async(ProcessImages, all_datasets).get()
+	pool.close()
