@@ -14,7 +14,10 @@ This repository is supposed to be used for estimating whether the assumption tha
 7. AntonisMakris: ```git clone https://github.com/AntonisMakris/COVID19-XRay-Dataset.git```
 
 ### Other Xray Datasets
-1. 
+1. NIH Chest X-ray Dataset: https://www.kaggle.com/nih-chest-xrays/data/home
+	- Create folder ```datasets/NIH-ChestXray```.
+	-  download images_001.zip and images_002.zip
+	- extract it inside ```datasets/NIH-ChestXray/images-1``` and ```datasets/NIH-ChestXray/images-2```.
 
 ## Make Virtual environment.
 1. ```pip install virtualenv```
