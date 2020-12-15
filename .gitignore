@@ -2,6 +2,7 @@
 xray-env/
 __pycache__/
 datasets/
+combined/
 #dataset directories.
 
 #images.
