@@ -26,7 +26,7 @@ covid_datasets = [
 	"covid_chestXray_dataset/covid_19 dataset/normal/",
 	"covid-19-chest-xray-segmentations-dataset/images/",
 	"COVID19-XRay-Dataset/test",
-	"COVID19-XRay-Dataset/test"
+	"COVID19-XRay-Dataset/train"
 ]
 
 if __name___ == "__main__":
