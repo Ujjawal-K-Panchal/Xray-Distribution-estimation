@@ -29,5 +29,10 @@ covid_datasets = [
 	"COVID19-XRay-Dataset/train"
 ]
 
+noncovid_datasets = [
+	"NIH-ChestXray/images-1/",
+	"NIH-ChestXray/images-2/"
+]
+
 if __name___ == "__main__":
 	print("TODO")
